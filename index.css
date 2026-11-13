@@ -1,0 +1,33 @@
+body{
+	background: linear-gradient(to right, #FAF7F2, #FFFFFF);
+}
+
+*{
+	color: #576753;
+}
+
+hr{
+	background-color: #E7DEC8 !important;
+}
+
+footer{
+	background: #E7DEC8;
+}
+/* Center carousel images */
+
+
+/* Make carousel arrows black */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	filter: invert(1) grayscale(100);
+}
+
+/* Make carousel indicators black */
+.carousel-indicators [data-bs-target] {
+	background-color: black;
+}
+
+/* Make active indicator black */
+.carousel-indicators .active {
+	background-color: black;
+}
